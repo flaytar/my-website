@@ -4,11 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CASPER</title>
+  <link rel="icon" type="image/png" href="https://i.imgur.com/NG6fZyg.png" />
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: sans-serif;
       background: url('https://i.imgur.com/OzxvHjp.png') no-repeat center center fixed;
       background-size: cover;
       color: white;
@@ -18,56 +19,35 @@
       align-items: center;
       height: 100vh;
       text-align: center;
-      animation: fadeIn 1s ease-in-out;
     }
-
-    @media (min-width: 768px) {
-      body {
-        background: url('https://i.imgur.com/Jla4xAy.png') no-repeat center center fixed;
-        background-size: cover;
-      }
-    }
-
     h1 {
-      font-size: 4.5em;
+      font-size: 5em;
       font-weight: bold;
       margin-bottom: 40px;
-      color: #ffffff;
-      text-shadow:
-        0 0 10px #00ffff,
-        0 0 20px #00ffff,
-        0 0 40px #00ffff;
-      -webkit-text-stroke: 1px #00ffff;
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
     }
-
     .buttons a {
       display: inline-block;
       margin: 10px;
       padding: 15px 30px;
-      background: rgba(0, 255, 255, 0.8);
-      color: #000;
+      background: #4A90E2;
+      color: white;
       text-decoration: none;
-      border: 2px solid #00ffff;
-      border-radius: 12px;
-      transition: all 0.3s ease;
+      border-radius: 8px;
+      transition: 0.3s;
       font-size: 1.2em;
-      font-weight: bold;
-      box-shadow:
-        0 0 10px #00ffff,
-        0 0 20px #00ffff;
+      border: 2px solid #00ffff;
+      box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
     }
-
     .buttons a:hover {
-      background: #00ffff;
-      transform: scale(1.05);
-      box-shadow:
-        0 0 15px #00ffff,
-        0 0 30px #00ffff;
+      background: #357ABD;
+      box-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff;
     }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+    @media (min-width: 768px) {
+      body {
+        background-image: url('https://i.imgur.com/Jla4xAy.png');
+      }
     }
   </style>
 </head>
